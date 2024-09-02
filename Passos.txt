@@ -1,6 +1,6 @@
 -- Configurando o Git --
 
-git config --global user.name "Rafael Haziel" 
+git config --global user.name "Rafael Haziel"
 git config --global user.email hazieldefato@gmail.com
 
 -- Toda Aula --
