@@ -20,7 +20,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        HomeVm home = new(){
+        HomeVM home = new(){
             Categorias = _context.Categorias
                 .Where(c => c.ExibirHome)
                 .ToList(),
